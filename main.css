@@ -5,10 +5,12 @@
     --color-text: #FFFFFF;
 }
 .header {
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column; 
     align-items: center;
     position: sticky;
+    top: 0;
 }
 .link-logo{
     margin-bottom: 10px;
@@ -27,5 +29,15 @@
     margin-bottom: 13px;
 }
 .container{
-
+    background-color: #3CD8C0;
+    width: px;
+    height: 2000px;
+}
+.text{
+    font-family: var(--font-family);
+    font-size: 30px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
