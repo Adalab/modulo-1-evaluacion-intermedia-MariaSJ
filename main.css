@@ -50,8 +50,7 @@
     .menu{
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        gap: 600px;
+        justify-content: space-between;
     }
     .img-logo{
         margin-top: 20px;
