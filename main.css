@@ -30,14 +30,17 @@
 }
 .container{
     background-color: #3CD8C0;
-    width: px;
-    height: 2000px;
+    height: 1000px;
 }
-.text{
+/* .title::first-line{
+    word-spacing: 100vw;
+} */
+.title{
     font-family: var(--font-family);
     font-size: 30px;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100px;
 }
