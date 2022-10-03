@@ -3,5 +3,29 @@
     --color-menu: #4a4a4a;
     --baclground-color: #3CD8C0;
     --color-text: #FFFFFF;
-    
+}
+.header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: sticky;
+}
+.link-logo{
+    margin-bottom: 10px;
+}
+.img-logo{
+    width: 155px;
+    margin-top: 10px;
+}
+.list-menu{
+    font-size: 16px;
+    font-family: var(--font-family);
+    color: #4a4a4a;
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+.container{
+
 }
